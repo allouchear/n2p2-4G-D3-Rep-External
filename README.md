@@ -21,7 +21,6 @@ You can also download the .zip file of n2p2-4G-D3-Rep-External : Click on Code a
 The code is interfaced with [LAMMPS](https://www.lammps.org/#gsc.tab=0). To compile LAMMPS for n2p2-4G-D3-Rep-External, see README file in n2p2-4G-D3-Rep-External/src/interface
 
 ## How to use it 
- - Andreas Singraber (University of Vienna)
 
 See examples/\* folders. 
 
@@ -30,7 +29,7 @@ This software was originally created by Andreas Singraber during his PhD program
 
 Contributions are much appreciated and will be recorded here:
 
-	- CabanaMD interface (libnnpif/CabanaMD): Saaketh Desai and Sam Reeve
-	- Polynomial symmetry functions (libnnp/Sym(Fnc/Grp)(Base)Comp...): Martin P. Bircher and Andreas Singraber
-	- [DFT3](https://github.com/dftbplus/dftd3-lib) library writen by S. Grimme adn coworkes
-	- Abdul-Rahman Allouche add dftd3 grimme correction, repulsion potential and  external (any) potential corrections
+ - CabanaMD interface (libnnpif/CabanaMD): Saaketh Desai and Sam Reeve
+ - Polynomial symmetry functions (libnnp/Sym(Fnc/Grp)(Base)Comp...): Martin P. Bircher and Andreas Singraber
+ - [DFT3](https://github.com/dftbplus/dftd3-lib) library writen by S. Grimme adn coworkes
+ - Abdul-Rahman Allouche add dftd3 grimme correction, repulsion potential and  external (any) potential corrections

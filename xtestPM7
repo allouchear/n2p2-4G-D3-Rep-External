@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd examples/nnp-train/ArgilePM7/train/
+./xpredictOMP

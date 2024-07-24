@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd examples/nnp-train/ArgileD3RepNoPer/train/
+cp input2.nn input.nn
+sed -i 's/dftd3_version 2/dftd3_version 4/g' input.nn 
+./xpredtest

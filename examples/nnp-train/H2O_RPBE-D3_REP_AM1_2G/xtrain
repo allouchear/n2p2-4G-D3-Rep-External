@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+#./xclear
+
+source /home/theochem/allouche/MySoftwares/n2p2-4G-D3-External3/env.sh
+
+runcore=4
+#mpirun -np $runcore nnp-train
+# 1=> charge, 2 => energy &forces
+#nnp-train 1
+nnp-train 2
+

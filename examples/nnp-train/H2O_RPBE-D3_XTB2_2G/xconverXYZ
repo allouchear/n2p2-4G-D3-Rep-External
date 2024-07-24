@@ -1,0 +1,2 @@
+
+python conver_n2p2_xyz.py --conv_distance=0.529177 --n2p2_file=input.data --xyz_file=input.xyz

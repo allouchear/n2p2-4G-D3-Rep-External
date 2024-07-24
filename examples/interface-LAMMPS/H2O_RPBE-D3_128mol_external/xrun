@@ -1,0 +1,4 @@
+#!/bin/bash
+LAMMPSDIR=~/MySoftwares/lammps-2Aug2023/
+#$LAMMPSDIR/src/lmp_mpi < md.lmp
+${LAMMPSDIR}/src/lmp_omp < md.lmp

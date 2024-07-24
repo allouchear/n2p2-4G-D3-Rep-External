@@ -1,0 +1,25 @@
+#!/bin/bash
+cyc=002500
+lisA="
+001
+008
+"
+for l in $lisA
+do
+echo $l $cyc
+cp weights.$l.$cyc.out weights.$l.data
+done
+
+mkdir lammps
+mkdir lammps/nnp-data
+cp input.nn lammps/nnp-data
+cp scaling.data lammps/nnp-data
+for l in $lisA
+do
+cp weights.$l.data lammps/nnp-data
+#cp weightse.$l.data ../lammps/nnp-data
+#cp hardness.$l.data ../lammps/nnp-data
+done
+echo "Voir le dossier lammps"
+echo " cd lammps"
+echo "./xrun pour lancer lammps"

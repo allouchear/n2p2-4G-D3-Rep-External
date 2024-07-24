@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source env.sh
+cd dftd3-lib-0.10
+make clean
+cd ..
+cd src
+make clean

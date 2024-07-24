@@ -1,0 +1,5 @@
+# Settings that the LAMMPS build will import when this package library is used
+
+nnp_SYSINC = -DEIGEN_USE_BLAS -DEIGEN_DONT_PARALLELIZE -I/home/theochem/allouche/Softwares/eigen3
+hdnnp_SYSLIB = -lnnpif -lnnp
+hdnnp_SYSPATH =

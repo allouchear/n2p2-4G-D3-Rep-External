@@ -1,0 +1,4 @@
+#!/bin/bash
+#source /home/theochem/allouche/MySoftwares/n2p2-4G-D3-Rep/env.sh
+source /home/theochem/allouche/MySoftwares/n2p2-4G-D3/env.sh
+$N2P2DIR/bin/nnp-scaling 5

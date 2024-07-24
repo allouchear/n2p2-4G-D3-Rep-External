@@ -1,0 +1,5 @@
+source ~/shell/dftd3Env
+#!/bin/bash
+
+#s-dftd3 --bj pbe0 --grad a.txt a.xyz
+s-dftd3 --bj pbe --grad a.txt POSCAR

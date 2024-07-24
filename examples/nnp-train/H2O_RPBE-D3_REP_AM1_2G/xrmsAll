@@ -1,0 +1,22 @@
+awk 'BEGIN{
+printf("%10s %20s %20s %20s %20s\n","---","------------------", "------------------","--------------","--------------")
+printf("%10s %20s %20s %20s %20s\n","num","rms forces meV/Ang", "rms forces meV/Ang","rms energy meV","rms energy meV")
+printf("%10s %20s %20s %20s %20s\n","---","------------------", "------------------","--------------","--------------")
+}
+{
+if($0 ~/ENERGY/)
+{
+rmsenergymeVTR=$4*1000.0*27.21138469
+rmsenergymeVTE=$5*1000.0*27.21138469
+}
+if($0 ~/FORCE/)
+{
+rmsforcesmeVAngTR=$4*1000.0*27.21138469/0.529177
+rmsforcesmeVAngTE=$5*1000.0*27.21138469/0.529177
+printf("%10d %20.2f %20.2f %20.2f %20.2f\n",i,rmsforcesmeVAngTR, rmsforcesmeVAngTE,rmsenergymeVTR,rmsenergymeVTE)
+i++
+}
+}
+END{
+printf("%10s %20s %20s %20s %20s\n","---","------------------", "------------------","--------------","--------------")
+}' xtrainMPI.out

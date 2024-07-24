@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source env.sh
+cd dftd3-lib-0.10
+cp lib/libdftd3.a ../lib
+cp lib/dftd3_api.mod ../lib
+make
+cd ..
+cd src
+make

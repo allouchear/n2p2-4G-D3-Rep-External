@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source /home/theochem/allouche/MySoftwares/n2p2-4G-D3CustomOMP-Rep/env.sh
+cd examples/nnp-train/ArgileD3CustumRep/train 
+nnp-predict 0
+which nnp-predict
+#nnp-train 2
+#which nnp-train

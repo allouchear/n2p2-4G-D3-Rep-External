@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source env.sh
+cd src/libnnp
+make clean
+make
+cd ../application
+rm nnp-predict.o
+rm nnp-train.o
+rm nnp-predict
+rm nnp-train
+make

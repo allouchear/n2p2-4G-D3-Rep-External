@@ -2,7 +2,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This repository provides a modified version of [n2p2-4G](https://github.com/CompPhysVienna/n2p2/tree/4G-HDNNP-training?tab=readme-ov-file), a ready-to-use software for high-dimensional neural network potentials in computational physics and chemistry. 
+This repository provides a modified version of [n2p2-4G](https://github.com/CompPhysVienna/n2p2/tree/4G-HDNNP-training?tab=readme-ov-file), a software for high-dimensional neural network potentials in computational physics and chemistry. 
 
 Added to the original verion :
 - dftd3 grimme correction to the energie

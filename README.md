@@ -4,10 +4,11 @@
 
 This repository provides ready-to-use software for high-dimensional neural network potentials in computational physics and chemistry. 
 It is based on [n2p2-4G](https://github.com/CompPhysVienna/n2p2/tree/4G-HDNNP-training?tab=readme-ov-file).
-Added by A.R. Allouche :
-    dftd3 grimme correction to energie
-    repulsion potential correction to energie
-    external (any) potential correction to energie
+
+Added to the original verion :
+- dftd3 grimme correction to the energie
+- repulsion potential correction to the energie
+- external (any) potential correction to the energie
 
 ## Installation
 

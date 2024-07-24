@@ -1,0 +1,9 @@
+#!/bin/bash
+source env.sh
+cp -r $NNPDIR/src/interface/LAMMPS/src/USER-NNP/ .
+cp src/MAKE/OPTIONS/Makefile.omp src/MAKE/MINE/Makefile.omp
+sed -i 's/-restrict//g' src/MAKE/MINE/Makefile.omp
+cd src
+make yes-user-nnp
+make serial 
+#make omp 

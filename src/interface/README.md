@@ -1,4 +1,4 @@
-# Use n2p2-4G-D3-Rep-External via LAMMPS
+# How to use n2p2-4G-D3-Rep-External via LAMMPS
 
 ## Set environement variables
 Edit env.sh to set paths to your configuration (openmi,...)

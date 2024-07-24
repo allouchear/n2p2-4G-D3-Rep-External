@@ -31,5 +31,5 @@ Contributions are much appreciated and will be recorded here:
 
  - CabanaMD interface (libnnpif/CabanaMD): Saaketh Desai and Sam Reeve
  - Polynomial symmetry functions (libnnp/Sym(Fnc/Grp)(Base)Comp...): Martin P. Bircher and Andreas Singraber
- - [DFT3](https://github.com/dftbplus/dftd3-lib) library writen by S. Grimme adn coworkes
+ - [DFTD3](https://github.com/dftbplus/dftd3-lib) library writen by S. Grimme adn coworkes
  - Abdul-Rahman Allouche add dftd3 grimme correction, repulsion potential and  external (any) potential corrections
